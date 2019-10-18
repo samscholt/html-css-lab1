@@ -1,0 +1,37 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f9fafc;
+    margin: 20px;
+}
+nav {
+    list-style-type: none;
+}
+nav li {
+    padding-bottom: 0.5em;
+}
+a {
+    text-decoration: none;
+    color: #69696a;
+}
+a.active {
+    color: #000;
+}
+.button {
+    color: #FFF;
+    background-color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;;
+}
+.content {
+    color: #69696a;
+    border-left: 3px solid #69696a;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
