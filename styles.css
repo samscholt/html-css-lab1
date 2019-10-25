@@ -6,6 +6,8 @@ body {
 nav ul {
     list-style-type: none;
     padding-left: 0;
+    display: flex;
+    flex-direction: column;
 }
 nav ul li {
     padding-bottom: 0.5em;
@@ -40,4 +42,21 @@ a.active {
     border-left: 3px solid #69696a;
     padding-left: 10px;
     margin-bottom: 25px;
+}
+@media only screen and (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        align-items: baseline;
+    }
+    nav ul li:first-child {
+        flex: 1;
+    }
+    .button {
+        display: flex-block;
+        width: auto;
+        padding: 0 20px;
+    }
+    .content {
+        width: 50vw;
+    }
 }
