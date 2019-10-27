@@ -2,6 +2,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: #f9fafc;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
 nav ul {
     list-style-type: none;
@@ -48,15 +50,27 @@ a.active {
         flex-direction: row;
         align-items: baseline;
     }
+    nav ul li {
+        padding-right: 1em;
+    }
     nav ul li:first-child {
         flex: 1;
+    }
+    main {
+        padding-top: 100px;
     }
     .button {
         display: flex-block;
         width: auto;
         padding: 0 20px;
+        align-items: center;
     }
     .content {
         width: 50vw;
+    }
+    .scroll {
+        position: absolute;
+        bottom: 20px;
+        left: 45vw;
     }
 }
